@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(253, 241, 255);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: right;
+    height: 3.5rem;
+    
+
+}
+nav ul {
+    list-style: none;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: larger;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px ;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: aqua;
+
+}
+.section {
+    padding: 50px 0;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.container2 {
+    flex: 1;
+    text-align: left;
+    padding: 6rem;
+    font-size: 2rem;
+}
+.container3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+.container3 img{
+    padding: 10px;
+    margin: 5rem;
+    height: 32rem;
+    border-radius: 50%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container2 h2{
+    font-size: 6rem;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#Skills h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.container4 {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.proglang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("bimg.jpeg");
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 15rem;
+    width: 15rem;
+}
+.container4 :hover{
+    color: aqua;
+
+}
+.linkedin-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #0077b5; /* LinkedIn Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.project {
+    background: rgb(215, 177, 253);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.project a{
+    color: rgb(50, 43, 43);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px){
+    .section1{
+        flex-direction: column;
+    }
+    .container2{
+        flex: none;
+        width: 100%;
+        height: 30rem;
+        padding: 1px;
+        text-align: center;
+    }
+    .container3{
+        flex: none;
+        width: 100%;
+        height: 25rem;
+        padding: 1px;
+        text-align: center;
+    }
+    .container3 img{
+        height: 15rem;
+    }
+    .proglang{
+        height: 7rem;
+        width: 7rem;
+        font-size: 0.8rem;
+        color: rgb(255, 251, 245);
+    }
+}
+
